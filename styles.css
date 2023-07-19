@@ -1,0 +1,129 @@
+.page1{
+
+        background-image: url("photo1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+   
+    .one{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    
+    }
+    
+    .two{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+    }
+
+    .three{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        margin-top: 350px;
+    }
+
+    h1 {
+        font-size: 60px;
+        color:#000000;
+        font-family: 'Questrial', sans-serif;
+        text-shadow: 2px 2px black;
+    }
+    .btn1{
+        background-color: #7F8487;
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    .page2one{
+        display: flex;
+        justify-content: center;
+        align-items:  center;  
+        padding: 50px;
+    }
+.page2two {
+    display: flex;
+    flex-direction: column; 
+}
+
+.photo2{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.buttonResult{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+    
+
+}
+.buttonNextStyle{
+    padding: 20px;
+    background-color:#F7EC09;
+}
+
+.photo8{
+    display:flex;
+    justify-content: center;
+    
+    width: 400px;
+    height: 500px;
+}
+label{
+    font-family: 'Questrial', sans-serif;
+    font-size:25px;
+}
+
+.divForP{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+}
+#btn{
+    padding: 20px;
+    background-color:#7F8487;  
+    border-radius: 10px; 
+    font-size: 25px;
+}
+img{
+    width: 400px;
+    height: 300;
+}
+
+
+@media all and (max-width:500px)
+{
+  .page1{
+
+    background-image: url(" https://cdn.glitch.global/d705844e-314b-4cad-9e39-a482a71c953d/photo9.jpg?v=1657334019399 ");
+   
+      
+    }
+    .three{
+        margin-top: 250px;
+          
+        }
+        .page1{
+            background-color: #F7EC09;
+        }
+
+        #btn{
+            background-color: #A149FA; 
+        }
+        #disp{
+            background-color: #F7EC09;
+          }
+  
+  }
+  
+  
